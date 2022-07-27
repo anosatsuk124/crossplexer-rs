@@ -1,0 +1,15 @@
+version: '3.9'
+services:
+  dev:
+    tty: true
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    env_file:
+      - .env
+    volumes:
+      - ../:/work
+      - target:/work/target
+
+volumes:
+  target:

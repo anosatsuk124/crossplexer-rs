@@ -9,7 +9,4 @@ services:
       - .env
     volumes:
       - ../:/work
-      - target:/work/target
-
-volumes:
-  target:
+    tmpfs: /work/target:uid=1000,gid=1000,exec

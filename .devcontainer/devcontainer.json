@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.241.1/containers/rust
 {
-	"name": "Rust",
+	"name": "crossplexer-rs",
 	"dockerComposeFile": "docker-compose.yml",
     "service": "dev",
     "workspaceFolder": "/work",
